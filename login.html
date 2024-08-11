@@ -1,138 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign in || Sign up Form</title>
-    <!-- font awesome icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <!-- css stylesheet -->
-    <link rel="stylesheet" href="./css/style2.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign in & Sign up Form</title>
+    <link rel="stylesheet" href="./css/style2.css" />
+  </head>
+  <body>
+    <main>
+      <div class="box">
+        <div class="inner-box">
+          <div class="forms-wrap">
+            <form action="index.html" autocomplete="off" class="sign-in-form">
+              <div class="logo">
+                <img src="./images/logo2.png" alt="easyclass" />
+               
+              </div>
 
-    <div class="container" id="container">
-        <div class="form-container sign-up-container">
-            <form id="signupForm">
-                <h1>Create Account</h1>
-                <div class="social-container">
-                    <a href="https://www.facebook.com/login/" class="social"><i class="fab fa-facebook-f"></i></a>
-                    <a href="https://www.google.co.in/" class="social"><i class="fab fa-google-plus-g"></i></a>
-                    <a href="https://www.linkedin.com/home" class="social"><i class="fab fa-linkedin-in"></i></a>
+              <div class="heading">
+                <h2>Welcome Back</h2>
+                <h6>Not registred yet?</h6>
+                <a href="#" class="toggle">Sign up</a>
+              </div>
+
+              <div class="actual-form">
+                <div class="input-wrap">
+                  <input
+                    type="text"
+                    minlength="4"
+                    class="input-field"
+                    autocomplete="off"
+                    required
+                  />
+                  <label>Name</label>
                 </div>
-                <span>or use your email for registration</span>
-                <div class="infield">
-                    <input type="text" placeholder="Name" id="signupName" required />
-                    <label></label>
+
+                <div class="input-wrap">
+                  <input
+                    type="password"
+                    minlength="4"
+                    class="input-field"
+                    autocomplete="off"
+                    required
+                  />
+                  <label>Password</label>
                 </div>
-                <div class="infield">
-                    <input type="email" placeholder="Email" id="signupEmail" name="email" required />
-                    <label></label>
-                </div>
-                <div class="infield">
-                    <input type="password" placeholder="Password" id="signupPassword" required />
-                    <label></label>
-                </div>
-                <button type="submit">Sign Up</button>
+
+                <input type="submit" value="Sign In" class="sign-btn" />
+
+                <p class="text">
+                  Forgotten your password or you login datails?
+                  <a href="#">Get help</a> signing in
+                </p>
+              </div>
             </form>
-        </div>
-        <div class="form-container sign-in-container">
-            <form id="signinForm">
-                <h1>Sign in</h1>
-                <div class="social-container">
-                    <a href="https://www.facebook.com/login/" class="social"><i class="fab fa-facebook-f"></i></a>
-                    <a href="https://www.google.co.in/" class="social"><i class="fab fa-google-plus-g"></i></a>
-                    <a href="https://www.linkedin.com/home" class="social"><i class="fab fa-linkedin-in"></i></a>
+
+            <form action="login.html" autocomplete="off" class="sign-up-form">
+              <div class="logo">
+                <img src="./images/logo2.png" alt="easyclass" />
+                
+              </div>
+
+              <div class="heading">
+                <h2>Get Started</h2>
+                <h6>Already have an account?</h6>
+                <a href="#" class="toggle">Sign in</a>
+              </div>
+
+              <div class="actual-form">
+                <div class="input-wrap">
+                  <input
+                    type="text"
+                    minlength="4"
+                    class="input-field"
+                    autocomplete="off"
+                    required
+                  />
+                  <label>Name</label>
                 </div>
-                <span>or use your account</span>
-                <div class="infield">
-                    <input type="email" placeholder="Email" id="signinEmail" name="email" required />
-                    <label></label>
+
+                <div class="input-wrap">
+                  <input
+                    type="email"
+                    class="input-field"
+                    autocomplete="off"
+                    required
+                  />
+                  <label>Email</label>
                 </div>
-                <div class="infield">
-                    <input type="password" placeholder="Password" id="signinPassword" required />
-                    <label></label>
+
+                <div class="input-wrap">
+                  <input
+                    type="password"
+                    minlength="4"
+                    class="input-field"
+                    autocomplete="off"
+                    required
+                  />
+                  <label>Password</label>
                 </div>
-                <a href="#" class="forgot">Forgot your password?</a>
-                <button type="submit">Sign In</button>
+
+                <input type="submit" value="Sign Up" class="sign-btn" />
+
+                <p class="text">
+                  By signing up, I agree to the
+                  <a href="#">Terms of Services</a> and
+                  <a href="#">Privacy Policy</a>
+                </p>
+              </div>
             </form>
-        </div>
-        <div class="overlay-container" id="overlayCon">
-            <div class="overlay">
-                <div class="overlay-panel overlay-left">
-                    <h1>Welcome Back!</h1>
-                    <p>To keep connected with us please login with your personal info</p>
-                    <button class="ghost" id="signIn">Sign In</button>
-                </div>
-                <div class="overlay-panel overlay-right">
-                    <h1>Hi, Trendsetter!</h1>
-                    <p>Step into a world of trendy and premium footwear.</p>
-                    <button class="ghost" id="signUp">Sign Up</button>
-                </div>
+          </div>
+
+          <div class="carousel">
+            <div class="images-wrapper">
+              <img src="./images/img3.avif" class="image img-1 show" alt="" />
+              <img src="./images/img4.avif" class="image img-2" alt="" />
+              <img src="./images/img5.avif" class="image img-3" alt="" />
             </div>
-            <button id="overlayBtn"></button>
+
+            <div class="text-slider">
+              <div class="text-wrap">
+                <div class="text-group">
+                 
+                </div>
+              </div>
+
+              <div class="bullets">
+                <span class="active" data-value="1"></span>
+                <span data-value="2"></span>
+                <span data-value="3"></span>
+              </div>
+            </div>
+          </div>
         </div>
-    </div>
+      </div>
+    </main>
 
-    <footer>
+    <!-- Javascript file -->
 
-    </footer>
-    
-    <!-- js code -->
-    <script>
-        const container = document.getElementById('container');
-        const overlayBtn = document.getElementById('overlayBtn');
-        const signupForm = document.getElementById('signupForm');
-        const signinForm = document.getElementById('signinForm');
-        const storedUsers = [];
-
-        overlayBtn.addEventListener('click', () => {
-            container.classList.toggle('right-panel-active');
-            overlayBtn.classList.remove('btnScaled');
-            window.requestAnimationFrame(() => {
-                overlayBtn.classList.add('btnScaled');
-            });
-        });
-
-        // Handle sign-up form submission
-        signupForm.addEventListener('submit', (e) => {
-            e.preventDefault();
-            const name = document.getElementById('signupName').value;
-            const email = document.getElementById('signupEmail').value;
-            const password = document.getElementById('signupPassword').value;
-
-            // Simple validation checks
-            if (name && email && password) {
-                storedUsers.push({ name, email, password });
-                alert('Successfully created an account!');
-                signupForm.reset();
-                container.classList.remove('right-panel-active'); // Switch to sign-in panel
-            } else {
-                alert('Please fill out all fields.');
-            }
-        });
-
-        // Handle sign-in form submission
-        signinForm.addEventListener('submit', (e) => {
-            e.preventDefault();
-            const email = document.getElementById('signinEmail').value;
-            const password = document.getElementById('signinPassword').value;
-
-            // Simple validation checks
-            if (email && password) {
-                const user = storedUsers.find(user => user.email === email && user.password === password);
-                if (user) {
-                    alert(`Welcome back, ${user.name}! You are successfully signed in.`);
-                    signinForm.reset();
-                } else {
-                    alert('Invalid email or password. Please try again.');
-                }
-            } else {
-                alert('Please fill out all fields.');
-            }
-        });
-    </script>
-
-</body>
+    <script src="./js/log.js"></script>
+  </body>
 </html>

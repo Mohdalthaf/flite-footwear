@@ -68,7 +68,7 @@ document.addEventListener('DOMContentLoaded', function() {
       emailjs.send("service_nfj388d", "template_mgj6in3", {
         from_name: name,
         from_email: email,
-        to_email: "footcap@gmail.com",
+        to_email: "flite@gmail.com",
         subject: 'New Contact Form Submission',
         message: message
       }).then(function(response) {
