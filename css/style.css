@@ -675,7 +675,7 @@
   
  
   
-  .insta-post-list { gap: 0; }
+  /* .insta-post-list { gap: 0; }
   
   .insta-post .section-title{
     text-align: center;
@@ -703,7 +703,7 @@
     font-size: 40px;
   }
   
-  .insta-post-link:is(:hover, :focus) { opacity: 1; }
+  .insta-post-link:is(:hover, :focus) { opacity: 1; } */
   
   
   
@@ -924,7 +924,7 @@
     .cta-card .btn-link { margin-inline: 0; }
   
   
-    .insta-post-list .insta-post-item { min-width: 25%; }
+    /* .insta-post-list .insta-post-item { min-width: 25%; } */
   
   
     .footer-brand .logo { margin-bottom: 0; }
@@ -976,7 +976,7 @@
     .special-banner { height: auto; }
 
   
-    .insta-post-list .insta-post-item { min-width: 20%; }
+    /* .insta-post-list .insta-post-item { min-width: 20%; } */
 
   
     .go-top-btn {
@@ -1073,7 +1073,7 @@
     .special-product .has-scrollbar > li { min-width: calc(50% - 12.5px); }
   
   
-    .insta-post-list .insta-post-item { min-width: 16.666%; }
+    /* .insta-post-list .insta-post-item { min-width: 16.666%; } */
   
   }
   
@@ -1140,9 +1140,9 @@
   
     .insta-post { padding-block-end: 0; }
   
-    .insta-post-list .insta-post-item { min-width: 12.5%; }
+    /* .insta-post-list .insta-post-item { min-width: 12.5%; } */
   
-    .insta-post-list { padding-bottom: 0; }
+    /* .insta-post-list { padding-bottom: 0; } */
   
   
   
