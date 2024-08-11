@@ -52,6 +52,7 @@ document.addEventListener('DOMContentLoaded', function() {
       }).then(function(response) {
         console.log('Success:', response.status, response.text);
         alert('Subscription successful! Please check your email.');
+        newsletterForm.reset();
       }, function(error) {
         console.error('Failed to send email:', error);
         alert('There was an error. Please try again.');
@@ -74,6 +75,7 @@ document.addEventListener('DOMContentLoaded', function() {
       }).then(function(response) {
         console.log('Success:', response.status, response.text);
         alert('Message sent successfully! We will get back to you soon.');
+        contactForm.reset();
       }, function(error) {
         console.error('Failed to send message:', error);
         alert('There was an error. Please try again.');
