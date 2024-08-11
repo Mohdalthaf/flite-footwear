@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('https://fonts.gstatic.com/s/josefinsans/v15/Qw3aZQNVED7rKGKxtqIqX5E5v_88T5esDg.woff2') format('woff2');
+  font-display: swap;
+}
+
 
 :root {
 
@@ -669,45 +677,7 @@
     flex: 1;
   }
 
-  
-  
-  
-  
- 
-  
-  /* .insta-post-list { gap: 0; }
-  
-  .insta-post .section-title{
-    text-align: center;
-    margin-bottom: 25px;
-  }
-  
-  .insta-post-list .insta-post-item {
-    position: relative;
-    min-width: 33.33%;
-    aspect-ratio: 1 / 1;
-  }
-  
-  .insta-post-link {
-    position: absolute;
-    inset: 0;
-    display: grid;
-    place-items: center;
-    background: var(--oxford-blue_60);
-    opacity: 0;
-    transition: var(--transition-1);
-  }
-  
-  .insta-post-link ion-icon {
-    color: var(--white);
-    font-size: 40px;
-  }
-  
-  .insta-post-link:is(:hover, :focus) { opacity: 1; } */
-  
-  
-  
-  
+   
   .footer { font-family: var(--ff-roboto); }
   
   .footer-top { 
@@ -924,9 +894,6 @@
     .cta-card .btn-link { margin-inline: 0; }
   
   
-    /* .insta-post-list .insta-post-item { min-width: 25%; } */
-  
-  
     .footer-brand .logo { margin-bottom: 0; }
   
     .footer-brand {
@@ -958,7 +925,6 @@
   
     .h4 { --fs-5: 2rem; }
 
-  
     .special-banner .banner-title { --fs-4: 2.2rem; }
   
     .special-product .has-scrollbar > li { min-width: 100%; }
@@ -974,10 +940,6 @@
     .special-product { min-width: calc(50% - 12.5px); }
   
     .special-banner { height: auto; }
-
-  
-    /* .insta-post-list .insta-post-item { min-width: 20%; } */
-
   
     .go-top-btn {
       padding: 15px;
@@ -991,22 +953,15 @@
   
   @media (min-width: 992px) {
   
-  
     :root {
   
       --fs-3: 2.4rem;
   
     }
   
-
-  
     .container { max-width: 970px; }
   
     .has-scrollbar > li { min-width: calc(33.33% - 16.66px); }
-  
-  
-  
-    
   
     .nav-open-btn,
     .nav-close-btn,
@@ -1071,10 +1026,7 @@
     .special-product { min-width: 66.66%; }
   
     .special-product .has-scrollbar > li { min-width: calc(50% - 12.5px); }
-  
-  
-    /* .insta-post-list .insta-post-item { min-width: 16.666%; } */
-  
+    
   }
   
   
@@ -1088,13 +1040,7 @@
   
     }
   
-  
-  
-  
     .container { max-width: 1280px; }
-  
-  
-  
   
     .hero { height: 580px; }
   
@@ -1105,25 +1051,13 @@
       max-width: 50ch;
     }
   
-  
-  
-    
-  
     .product-list { grid-template-columns: repeat(4, 1fr); }
-  
-  
-  
-    
   
     .special-banner { min-width: calc(25% - 25px); }
   
     .special-product .has-scrollbar > li { min-width: calc(33.33% - 16.66px); }
   
     .special-banner .banner-title { --fs-4: 2.4rem; }
-  
-  
-  
-    
   
     .service-item { width: 275px; }
   
@@ -1134,19 +1068,7 @@
   
     .service-card .card-title { --fs-6: 2rem; }
   
-  
-  
-    
-  
     .insta-post { padding-block-end: 0; }
-  
-    /* .insta-post-list .insta-post-item { min-width: 12.5%; } */
-  
-    /* .insta-post-list { padding-bottom: 0; } */
-  
-  
-  
-    
   
     .footer-link-box {
       grid-template-columns: 1.5fr 1fr 1fr 1.5fr;
