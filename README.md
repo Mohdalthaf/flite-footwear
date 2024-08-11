@@ -1,0 +1,8 @@
+![home-page png](https://github.com/user-attachments/assets/94f24928-2b8a-4d80-9aa5-a31b955496cb)
+![about png](https://github.com/user-attachments/assets/5e1d7894-7b34-477e-84cf-ab81b4f915b3)
+![products png](https://github.com/user-attachments/assets/aedd7134-2685-41bc-9f66-62833d2f322c)
+![product png](https://github.com/user-attachments/assets/57ce93be-c701-4f9f-a677-3c618c301066)
+![shop png](https://github.com/user-attachments/assets/95e17747-c609-4994-9b2a-dbdae107314d)
+![contact png](https://github.com/user-attachments/assets/2a363670-1872-48d6-bb40-00e28253617e)
+![signin png](https://github.com/user-attachments/assets/b0cc2c31-3cd0-4721-912e-04316a752fe5)
+![signup png](https://github.com/user-attachments/assets/7ddd007b-f657-4e29-8324-d75f3f9325d3)
